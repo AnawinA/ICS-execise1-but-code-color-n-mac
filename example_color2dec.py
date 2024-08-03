@@ -1,8 +1,8 @@
 from color_n_dec import dec2color, color2dec
 from mac_n_bin import mac2bin, bin2mac
 
-## Exercise 01 
-# 4. pixel [R, G, B]
+# ICS: Exercise 01 
+## 4. pixel [R, G, B]
 a = "#A132EC"
 print("a:", color2dec(a))
 
@@ -12,7 +12,7 @@ print("b:", color2dec(b))
 c = [1, 240, 132]
 print("c:", dec2color(c))
 
-# 5. MAC Address
+## 5. MAC Address
 print()
 
 d0 = "15:a4:c7:ff:39:82"
